@@ -1,0 +1,158 @@
+.bo:hover{
+    color: rgb(233, 134, 134);
+}
+.box li:hover{
+    color: rgb(230, 110, 110);
+}
+.cook:hover{
+        background-color: #fff;
+        color:rgb(230, 110, 110);
+        border: 1px solid  rgb(230, 110, 110)
+}
+.now:hover{
+        background-color:rgb(230, 110, 110);
+        color: white;
+}
+.car {
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(230, 110, 110);
+}
+.chick {
+    border: 2px solid red ;
+       
+}
+.more {
+    border: 2px solid red ;
+    position: relative;
+    width: 100%;
+    
+}
+.food {      
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+
+}
+.salad {
+    position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transition: 1s ease-in-out;
+   padding: 30px;
+   
+}
+.food:hover .salad{
+    background-color: rgb(63, 62, 62 , 0.5);
+    border-radius: 20px;
+}
+.name {
+   
+    transform: translateY(100%);
+    transition: 1s ease-in-out;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   color: white;
+    
+}
+.food:hover .name {
+    transform: translateY(75%);
+}
+#food {
+    width: 600px;
+    height: 560px;
+}
+#three{
+    margin-top: 20px;
+    width: 600px;
+}
+#three:hover #name {
+    transform: translateY(60%);
+}
+#two {
+    margin-bottom: 20px;
+    width: 600px;
+}
+#two:hover #boox {
+    transform: translateY(60%);
+}
+#one {
+    width: 600px;
+    height: 650px;
+}
+.arrow {
+    transition: 400ms ease-in;
+}
+.arrow:hover {
+    transform: scale(1.1);
+}
+.sub { 
+    border-radius: 50px;
+  border-top-right-radius: 1000px;
+}
+.insta i {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    transition: 200ms ease-in;
+}
+.insta i:hover {
+    background-color: rgb(237, 135, 135);
+}
+.bout li:hover {
+    color: rgb(237, 135, 135);
+}
+.policy a:hover {
+    color: rgb(237, 135, 135);
+}
+.policy a{
+    padding-right: 15px;
+}
+/* #link {
+    display: none;
+} */
+#icon {
+    display: none;
+} 
+@media only screen and (min-width:300px) and (max-width:500px) {
+     #food {
+        width: 90%;
+        height: 400px;
+    }
+    .food:hover .name {
+        transform: translateY(65%);
+    } 
+    #three{
+        margin-top: 20px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #three:hover #name {
+        transform: translateY(40%);
+    }
+    #two {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    #two:hover #boox {
+        transform: translateY(40%);
+    }
+    #one {
+        width: 90%;
+        height: 400px;
+    }
+    #icon {
+        display: block;
+    }
+    /* #link.show {
+        display: block;
+    }
+    #link {
+        display:block;
+    } */
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/tailwindcss.output.css">
+    <link rel="stylesheet" href="/newcss/all.min.css">
+    <link rel="stylesheet" href="/newcss/owl.carousel.min.css">
+    <link rel="stylesheet" href="/newcss/owl.theme.default.min.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body class="font-cursive">
+    <header class=" md:flex gap-[25px] py-[15px] px-[20px] bg-white fixed w-[100%] z-10">
+        <div class="flex gap-[15px] items-center">
+            <div> 
+                <img src="/images/logo2.svg" alt="">
+            </div>
+            <div class="flex">
+                <h1 class="font-bold text-[1.7rem]">Chef's Kitchen.</h1>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars fa-2x ml-[30px]" id="icon" onclick="menu()"></i>
+                <section class="hidden absolute right-[10px] top-[-3px] z-15 bg-transparent w-[320px]" id="link" >
+                    <div class="flex gap-[15px] items-center">
+                        <div> 
+                            <img src="/images/logo2.svg" alt="">
+                        </div>
+                        <div class="flex">
+                            <h1 class="font-bold text-[1.7rem]">Chef's Kitchen.</h1>
+                        </div>
+                    </div> 
+                    <div class=" md:flex items-center">
+                        <nav>
+                            <ul class=" capitalize text-[1.3rem] font-medium box">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About us </a></li>
+                                <li><a href="">recipe</a></li>
+                                <li><a href="">gallery</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                        <div class=" mb-[10px] py-4 px-8 capitalize border-2 text-red-400 font-medium text-[1.2rem]"> 
+                            <p class="">sign up</p>
+                        </div>
+                    <div class=" py-4 px-8 capitalize bg-red-300  text-white font-medium text-[1.2rem]"> 
+                        <p class="">sign up</p>
+                    </div>
+                  </section>
+            </div>
+        </div>
+        <div class="hidden md:flex items-center">
+            <nav>
+                <ul class="flex gap-[30px] capitalize text-[1.3rem] text-gray-500 font-medium box">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us </a></li>
+                    <li><a href="">recipe</a></li>
+                    <li><a href="">gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hidden md:flex gap-2 items-center">
+           <div>
+            <i class="fa-solid fa-phone fa-2x text-red-500"></i>
+            
+           </div>
+            <div>
+                <p class="text-[1.2rem] font-medium bo">+1(909) 235-9814</p>
+            </div>
+            <div class="mr-[10px] ml-[9px] py-3 px-8 rounded-[30px] capitalize bg-red-100 text-red-500 font-medium text-[1.2rem]">
+                <p class="hover:bg-red-600" >sign in</p>
+            </div>
+            <div class=" py-4 px-8 rounded-[30px] capitalize bg-red-300  text-white font-medium text-[1.2rem]"> 
+                <p class="">sign up</p>
+            </div>
+        </div>
+    </header>
+    <main >
+       <section class=" md:flex pt-[7rem]  ">
+        <div class="w-[100%] pl-[5px] md:pt-[150px] md:pl-[30px] md:w-[650px]">
+            <h1 class="text-[2.5rem] text-center leading-[3rem] font-bold md:font-bold md:text-start md:leading-[5rem] md:text-[4.5rem]">Cook anything with the experts </h1>
+            <p class=" text-[1.2rem] px-[15px] text-center md:text-start md:px-[0px] md:text-[1.3rem] text-gray-500 py-[25px]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam</p>
+          <div class="flex-wrap m-[10px] md:flex gap-3 md:m-0">
+            <div class="cook w-[45%]  h-[70px]  md:w-[40%]  flex items-center justify-center md:h-[70px] text-[1.3rem] rounded-[50px] bg-amber-600 text-white font-semibold">
+                <p>Lets cook</p>
+            </div>
+            <div  class="now text-[1.3rem]  rounded-[50px] md:w-[40%]  flex items-center justify-center h-[70px] border-[1px] capitalize text-red-400 font-semibold">
+                <p>explore now</p>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+            <img src="/images/banner-image.png" alt="demo" class=" h-[350px] md:h-[600px]">
+            <div class="flex w-[250px] rounded-2xl font-normal p-[5px] absolute top-60 md:top-120 bg-white left-10 md:left-15  capitalize ">
+                <img src="/images/foodone.jpeg" alt="" class=" w-[100px] h-[70px] rounded-2xl pr-[10px]">
+                <div class="text-[1.1rem] flex items-center">
+                    <p>more than 500+ recipe</p>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="text-center pt-20">
+            <p class="car  uppercase text-[1.5rem]">features</p>
+            <h1 class="hidden md:block md:font-bold text-[3rem] md:pl-[300px] pr-[300px] leading-[2.8rem]">Get a many of interesting features.</h1>
+       </section>
+       <section class=" flex-wrap  md:flex gap-3">
+        <div class="relative mt-[7rem]" >
+            <img src="/images/featureThree.svg" alt="" class="h-[600px] absolute  left-[10px] top-[-250px]">
+        <div class="bg-gray-100 w-[100%] md:w-[300px] h-[300px] rounded-[20px]  text-center pt-[70px]">
+            <h1 class="font-bold text-[1.5rem]">Menu variations</h1>
+            <p class="text-[1.3rem] py-[10px] px-[20px]">Sed ut perspiciatis unde omnis iste natus error</p>
+           <div class="text-[1.2rem] text-red-400 font-semibold capitalize ">
+            <span>Learn more</span><span><i class="fa-solid fa-greater-than pl-2"></i></span>
+           </div>
+        </div>
+        </div>
+        <div class="relative mt-[5rem]" >
+            <img src="/images/featureThree.svg" alt="" class="h-[600px] absolute  left-[10px] top-[-250px]">
+            <div class="bg-gray-100 w-[100%] md:w-[300px] h-[300px] rounded-[20px]  text-center pt-[70px]">
+            <h1 class="font-bold text-[1.5rem]">Cooking warw</h1>
+            <p class="text-[1.3rem] py-[10px] px-[20px]">Sed ut perspiciatis unde omnis iste natus error</p>
+           <div class="text-[1.2rem] text-red-400 font-semibold capitalize ">
+            <span>Learn more</span><span><i class="fa-solid fa-greater-than pl-2"></i></span>
+           </div>
+        </div>
+        </div>
+        <div class="relative mt-[5rem]" >
+            <img src="/images/featureThree.svg" alt="" class="h-[600px] absolute  left-[10px] top-[-250px]">
+            <div class="bg-gray-100 w-[100%] md:w-[300px] h-[300px] rounded-[20px]  text-center pt-[70px]">
+            <h1 class="font-bold text-[1.5rem]">Best chef</h1>
+            <p class="text-[1.3rem] py-[10px] px-[20px]">Sed ut perspiciatis unde omnis iste natus error</p>
+           <div class="text-[1.2rem] text-red-400 font-semibold capitalize ">
+            <span>Learn more</span><span><i class="fa-solid fa-greater-than pl-2"></i></span>
+           </div>
+        </div>
+        </div>
+        <div class="relative mt-[5rem]" >
+            <img src="/images/featureThree.svg" alt="" class="h-[600px] absolute  left-[10px] top-[-250px]">
+            <div class="bg-gray-100 w-[100%] md:w-[300px] h-[300px] rounded-[20px]  text-center pt-[70px]">
+            <h1 class="font-bold text-[1.5rem]">Fast food</h1>
+            <p class="text-[1.3rem] py-[10px] px-[20px]">Sed ut perspiciatis unde omnis iste natus error</p>
+           <div class="text-[1.2rem] text-red-400 font-semibold capitalize ">
+            <span>Learn more</span><span><i class="fa-solid fa-greater-than pl-2"></i></span>
+           </div>
+        </div>
+        </div>
+       </section>
+       <section class=" flex-wrap md:flex gap-[20px] ml-[15px] md:ml-[30px] mt-[3rem] md:mt-[5rem]">
+            <div>
+                <img src="/images/cook.png" alt="" class=" h-[20%] md:h-[700px] ">
+            </div>
+            <div class="   md:w-[500px]  mt-[1rem] md:mt-[7rem]">
+                <p class="car text-[1rem] md:text-[1.3rem]  capitalize">cook with us</p>
+            <h1 class="font-bold text-[2.8rem] leading-[3rem]">Cooking together with the experts.</h1>
+            <p class="w-[100%] text-[1.1rem] md:text-[1.3rem] md:w-[560px] text-gray-400 py-[10px]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem</p>
+            <p class="text-[1.1rem]  md:text-[1.3rem] w-[100%] md:w-[580px] py-[40px] text-gray-400">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium....</p>
+            <div class="cook w-[200px] text-center text-[1.3rem] rounded-[50px] py-[20px] px-[10px] bg-amber-600 text-white font-semibold">
+                <p>Learn more</p>
+            </div>
+        </div>
+       </section>
+       <section class="pb-[200px] md:pb-[100px] relative mt-[10rem] bg-pink-100">
+        <img src="/images/burger.png" alt="" class=" hidden md:block h-[550px] right-0 absolute top-[-300px]">
+        <div class="pb-[4rem]">
+            <p class="text-[1.3rem] uppercase text-center pt-[3rem] ">experts chefs</p>
+        <h1 class="text-[2rem] md:text-[3rem] text-center font-bold">Let's meet the expert.</h1>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item w-[350px] text-center">
+                <img src="/images/girl (1).png" alt="" >
+                <h1 class="font-bold text-[1.5rem] capitalize">shoo thar mien</h1>
+                <p class="capitalize text-[1.1rem] text-gray-500">junior chef </p>
+            </div>
+            <div class="item  w-[350px] text-center">
+                <img src="/images/girl (1).png" alt="" >
+                <h1 class="font-bold text-[1.5rem] capitalize">shoo thar mien</h1>
+                <p class="capitalize text-[1.1rem] text-gray-500">junior chef </p>
+            </div>
+            <div class="item  w-[350px] text-center">
+                <img src="/images/girl (1).png" alt="" >
+                <h1 class="font-bold text-[1.5rem] capitalize">shoo thar mien</h1>
+                <p class="capitalize text-[1.1rem] text-gray-500">junior chef </p>
+            </div>
+            <div class="item  w-[350px] text-center">
+                <img src="/images/girl (1).png" alt="" >
+                <h1 class="font-bold text-[1.5rem] capitalize">shoo thar mien</h1>
+                <p class="capitalize text-[1.1rem] text-gray-500">junior chef </p>
+            </div>
+            <div class="item  w-[350px] text-center">
+                <img src="/images/girl (1).png" alt="" >
+                <h1 class="font-bold text-[1.5rem] capitalize">shoo thar mien</h1>
+                <p class="capitalize text-[1.1rem] text-gray-500">junior chef </p>
+            </div>
+           
+        </div>
+       </section>
+       <div class="text-center">
+        <p class="text-[1.3rem] uppercase  pt-[3rem] ">our gallery</p>
+        <h1 class="hidden md:block font-bold capitalize text-[3rem]">gallery of our cooked food.</h1>
+       </div>
+       <section class="flex-wrap ml-[30px] md:ml-[0px] md:flex-nowrap md:flex m-[0px] md:m-[30px] gap-[20px]">
+       <div>
+        <div class="food" id="food">
+            <img src="/images/foodone.jpeg" alt="" class=" w-[100%] h-[100%]" >
+            <div class="salad">
+                <div class="name">
+                    <span class="font-bold text-[1.4rem]">Name:</span> <span class="text-[1.2rem] capitalize">caesar salad (187 kcal)</span>
+                    <div class="flex gap-[50px] mt-[2rem]">
+                        <div>
+                            <span class="font-bold">Price:</span> <span>$35</span>
+                        </div>
+                        <div class="cook py-[3px] px-[20px] text-center rounded-[50px]  bg-amber-600 text-white font-semibold">
+                            <p>Learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="food" id="three">
+            <img src="/images/foodthree.jpeg" alt="" class="w-[100%] h-[100%] rounded-[20px]" >
+            <div class="salad">
+                <div class="name" id="name">
+                    <span class="font-bold text-[1.4rem]">Name:</span> <span class="text-[1.2rem] capitalize">caesar salad (187 kcal)</span>
+                    <div class="flex gap-[50px] mt-[2rem]">
+                        <div>
+                            <span class="font-bold">Price:</span> <span>$35</span>
+                        </div>
+                        <div class="cook py-[3px] px-[20px] text-center rounded-[50px]  bg-amber-600 text-white font-semibold">
+                            <p>Learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div>
+        <div class="food" id="two" >
+            <img src="/images/foodtwo.jpeg" alt="" class="h-[100%] w-[100%]" >
+            <div class="salad">
+                <div class="name" id="boox">
+                    <span class="font-bold text-[1.4rem]">Name:</span> <span class="text-[1.2rem] capitalize">caesar salad (187 kcal)</span>
+                    <div class="flex gap-[50px] mt-[2rem]">
+                        <div>
+                            <span class="font-bold">Price:</span> <span>$35</span>
+                        </div>
+                        <div class="cook py-[3px] px-[20px] text-center rounded-[50px]  bg-amber-600 text-white font-semibold">
+                            <p>Learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="food" id="one">
+            <img src="/images/foodfour.jpeg" alt="" class="w-[100%] h-[100%] rounded-[20px]" >
+            <div class="salad">
+                <div class="name" id="onoo">
+                    <span class="font-bold text-[1.4rem]">Name:</span> <span class="text-[1.2rem] capitalize">caesar salad (187 kcal)</span>
+                    <div class="flex gap-[50px] mt-[2rem]">
+                        <div>
+                            <span class="font-bold">Price:</span> <span>$35</span>
+                        </div>
+                        <div class="cook py-[3px] px-[20px] text-center rounded-[50px]  bg-amber-600 text-white font-semibold">
+                            <p>Learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       </section>
+       <section class="sub mt-[10rem] text-white border-2 py-[50px] md:py-[110px] px-[20px] w-[100%]  md:px-[150px] bg-amber-600 relative">
+        <div class="absolute right-0 top-[-90px]">
+            <img src="/images/burger.png" alt="" class=" hidden md:block h-[500px]">
+        </div>
+            <div>
+                <p class="uppercase text-[1.3rem]">newletters </p>
+                <h1 class="font-bold text-[2rem] md:text-[3rem] py-[20px] leading-[2rem] md:leading-[3rem] w-[350px]">Subscribe  our newsletter.</h1>
+               <div class="w-[600px] relative">
+                <input type="text" placeholder="@enter your email address" class="text-white md:text-black rounded-[50px] bg-black md:bg-white pl-[10px] py-[25px] w-[50%] md:w-[550px]">
+                <div class="absolute arrow p-[10px] rounded-[50%] top-[10px] right-[300px] md:right-[70px]   w-[50px] h-[50px] text-white bg-black">
+                    <i class="fa-solid fa-arrow-right fa-2x"></i>
+                </div>
+               </div>
+            </div>
+       </section>
+       <section class=" flex-wrap md:flex-nowrap md:flex  gap-[100px] mt-[3rem] ml-[20px]">
+          <div>
+           <div class="flex">
+            <img src="/images/logo2.svg" alt="">
+            <div class="flex items-center capitalize font-bold text-[1.3rem]">
+                <h2>chef's kitchen.</h2>
+            </div>
+           </div>
+            <p class=" w-[350px] py-[10px] mr-[100px] ">Open an account in minutes, get full financial control for much longer.</p>
+            <div class="insta ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+            <div class="flex-wrap flex justify-center gap-[50px] md:gap-[90px] "> 
+                <div class="capitalize">
+                    <h3 class=" font-bold  text-[1.2rem]">company</h3>
+                    <nav class="pt-[15px] text-[1.2rem]">
+                        <ul class="bout">
+                            <li class="pt-[10px]"><a href="#">about</a></li>
+                            <li  class="pt-[10px]"><a href="#">careers</a></li>
+                            <li  class="pt-[10px]"><a href="#">Mobile </a></li>
+                            <li  class="pt-[10px]"><a href="#">blog</a></li>
+                            <li  class="pt-[10px]"><a href="#">how we work </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="capitalize">
+                    <h3 class="font-bold  text-[1.2rem]">Information</h3>
+                   <nav class="pt-[15px] text-[1.2rem]">
+                    <ul class="bout">
+                        <li  class="pt-[10px]"><a href="#">Help/FAQ</a></li>
+                        <li  class="pt-[10px]"><a href="#">Press</a></li>
+                        <li  class="pt-[10px]"><a href="#">Affiliates </a></li>
+                        <li  class="pt-[10px]"><a href="#">Hotel owners</a></li>
+                        <li  class="pt-[10px]"><a href="#">Partners     </a></li>
+                    </ul>
+                   </nav>
+                </div>
+                <div class="capitalize">
+                    <h3 class=" font-bold  text-[1.2rem]" >More</h3>
+                    <nav class="pt-[15px] text-[1.2rem]">
+                        <ul class="bout">
+                            <li  class="pt-[10px]"><a href="#">Home    </a></li>
+                            <li  class="pt-[10px]"><a href="#">About Us</a></li>
+                            <li  class="pt-[10px]"><a href="#">Recipe</a></li>
+                            <li  class="pt-[10px]"><a href="#">blog</a></li>
+                            <li  class="pt-[10px]"><a href="#">Gallery </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+       </section>
+       <br><br><br>
+       <hr>
+       <section class="flex gap-[50px] md:gap-[200px] capitalize mt-[2rem] text-[1rem] md:text-[1.1rem]"> 
+            <div>
+                <p>@2025 - Chef's kitchen. Distributed By ThemeWagon and Developed by GetNextjsTemplates</p>
+            </div>
+            <div class="policy">
+                <a href="#">privacy policy</a>
+                <a href="#">terms & conditions </a>
+            </div>
+       </section>
+    
+    </main>
+
+    <script src="/javascript/jquery-3.7.1.min.js"></script>
+    <script src="/javascript/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                auto:true,
+                autoplay:3000,
+                loop:true,
+                dots:false,
+                slideBy:3,
+                responsive: {
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items :3
+                    }
+                }
+            })
+        })  
+
+       function menu() {
+    let link = document.getElementById('link');
+    link.classList.toggle('hidden'); // Tailwind will handle the visibility
+}
+    </script>
+</body>
+</html>
